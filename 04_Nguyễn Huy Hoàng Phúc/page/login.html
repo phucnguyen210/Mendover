@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta info="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mendover</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header-menu">
+                <div class="container">
+                    <ul class="list-account">
+                        <li>
+                            <a href="login.html">Đăng nhập</a>
+                        </li>
+                        <li>
+                            <a href="register.html">Đăng ký</a>
+                        </li>
+                    </ul>
+                    <ul class="list-search">
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-suitcase"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a style="display: flex; color: #bda87f;" href="cart.html">
+                                <p style="color: #848484;">Giỏ hàng: </p>
+                                <p>(0) Sản phẩm</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="../images/header/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-menu-text">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa-solid fa-house"></i>
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li><a href="introduce.html">Giới thiệu</a></li>
+                        <li>
+                            <a href="product.html">
+                                Sản phẩm
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="subnav-menu">
+                                <li>
+                                    <a href="">Nhà ở</a>
+                                    <i style="margin-right: 10px;
+                                    float: right;
+                                    line-height: 60px;" class="fa-solid fa-chevron-right"></i>
+                                    <!-- menu cấp 2 -->
+                                    <ul class="subnav-menu">
+                                        <li><a href="">Mẫu nhà phố đẹp</a></li>
+                                        <li><a href="">Căn hộ Pearl Plaza</a></li>
+                                        <li><a href="">Khu căn hộ SSG Tower</a></li>
+                                        <li><a href="">Times city Part Hill </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Căn hộ</a>
+                                    <i style="margin-right: 10px;
+                                    float: right;
+                                    line-height: 60px;" class="fa-solid fa-chevron-right"></i>
+                                    <!-- menu cấp 3 -->
+                                    <ul class="subnav-menu">
+                                        <li><a href="">Mẫu nhà phố đẹp</a></li>
+                                        <li><a href="">Căn hộ Pearl Plaza</a></li>
+                                        <li><a href="">Khu căn hộ SSG Tower</a></li>
+                                        <li><a href="">Times city Part Hill </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Chung cư</a></li>
+                                <li><a href="">Văn phòng</a></li>
+                                <li><a href="">Nhà ở dự án</a></li>
+                                <li><a href="">Loại khác</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="news.html">
+                                Tin tức
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="subnav-menu">
+                                <li><a href="">Bất động sản</a></li>
+                                <li><a href="">Tin nổi bật</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-page-list">
+            <div id="content">
+                <div class="banner">
+                    <h1>Đăng nhập tài khoản</h1>
+                </div>
+            </div>
+            <div class="bread">
+                <div class="container container_bread">
+                    <ul>
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <strong>Đăng nhập tài khoản</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="parent">
+            <div class="child">
+                <h1 style="text-align: center; font-weight: 100; margin-top: 80px;">ĐĂNG NHẬP TÀI KHOẢN</h1>
+                </br>
+                <input style="height: 50px; width: 700px; margin-left: 400px; padding-left: 20px; border: none;"
+                    type="email" name="email" placeholder="Email*" required />
+                </br>
+                <input
+                    style="height: 50px; width: 700px; margin-left: 400px; margin-top: 10px; padding-left: 20px; border: none;"
+                    type="password" name="password" placeholder="Mật khẩu:*" required />
+                <ul class="checkpass">
+                    <li><a href="forgotpw.html">Quên mật khẩu?</a></li>
+                    <li><a href="register.html">Đăng ký tài khoản mới?</a></li>
+                </ul>
+                </br>
+                <button
+                    style="height: 40px; width: 120px; color: white; background: #bda87f; border: none; font-weight: 600; margin-left: 400px;">
+                    ĐĂNG NHẬP</button>
+                <div class="fg">
+                    <div>Hoặc đăng nhập bằng</div>
+                    <ul class="fgbutton">
+                        <li><button style="height: 35px; width: 130px; background: #337ab7; border: none;">
+                                <a href="https://www.facebook.com/">Facebook</a></button></li>
+                        <li><button style="height: 35px; width: 130px; background: tomato; border: none;">
+                                <a href="https://www.google.com.vn/?hl=vi">Google</a></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="left-footer">
+                    <img src="https://bizweb.dktcdn.net/100/069/071/themes/895058/assets/logo_footer.png?1676346631176"
+                        alt="">
+                    <!-- </br> -->
+                    <ul class="contact">
+                        <li>
+                            <i style="margin-top: 40px; color: #bda87f;"
+                                class="contact-icon fa-solid fa-location-dot"></i>
+                            <span class="contact-text">Cổ nhuế, Bắc từ liêm, Hà Nội</span>
+                        </li>
+                        <li>
+                            <i style="margin-top: 25px; color: #bda87f;" class="contact-icon fa-solid fa-mobile"></i>
+                            <span class="contact-text">012456789</span>
+                        </li>
+                        <li>
+                            <i style="margin-top: 25px; color: #bda87f;"
+                                class="contact-icon fa-regular fa-envelope"></i>
+                            <span class="contact-text">Phucnguyen03p@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-footer">
+                    <div class="nav-menu">
+                        <ul class="nav-menu-text">
+                            <li><a href="">TÀI KHOẢN</a></li>
+                            <li><a style="margin-left: 70px;" href="">CHÍNH SÁCH</a></li>
+                            <li><a style="margin-left: 70px;" href="">ĐIỀU KHOẢN</a></li>
+                            <li><a style="margin-left: 70px;" href="">HƯỚNG DẪN</a></li>
+                        </ul>
+                    </div>
+                    <div class="mainmenu">
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="introduce.html">Giới thiệu</a></li>
+                                <li><a href="product.html">Sản phẩm</a></li>
+                                <li><a href="news.html">Tin tức</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a style="margin-left: 85px;" href="index.html">Trang chủ</a></li>
+                                <li><a style="margin-left: 85px;" href="introduce.html">Giới thiệu</a></li>
+                                <li><a style="margin-left: 85px;" href="product.html">Sản phẩm</a></li>
+                                <li><a style="margin-left: 85px;" href="news.html">Tin tức</a></li>
+                                <li><a style="margin-left: 85px;" href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a style="margin-left: 95px;" href="index.html">Trang chủ</a></li>
+                                <li><a style="margin-left: 95px;" href="introduce.html">Giới thiệu</a></li>
+                                <li><a style="margin-left: 95px;" href="product.html">Sản phẩm</a></li>
+                                <li><a style="margin-left: 95px;" href="news.html">Tin tức</a></li>
+                                <li><a style="margin-left: 95px;" href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a style="margin-left: 95px;" href="index.html">Trang chủ</a></li>
+                                <li><a style="margin-left: 95px;" href="introduce.html">Giới thiệu</a></li>
+                                <li><a style="margin-left: 95px;" href="product.html">Sản phẩm</a></li>
+                                <li><a style="margin-left: 95px;" href="news.html">Tin tức</a></li>
+                                <li><a style="margin-left: 95px;" href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="lastleft">
+                        <div class="lasttext">Bản quyền thuộc về Team 04 | Cung cấp bởi SAPO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

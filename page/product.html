@@ -1,0 +1,657 @@
+<head>
+    <meta charset="UTF-8">
+    <meta info="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mendover</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .card-product span {
+        padding: 10px 16px;
+    }
+</style>
+
+
+<body>
+    <div class="main">
+        <div id="header">
+            <div class="header-menu">
+                <div class="container">
+                    <ul class="list-account">
+                        <li>
+                            <a href="login.html">Đăng nhập</a>
+                        </li>
+                        <li>
+                            <a href="register.html">Đăng ký</a>
+                        </li>
+                    </ul>
+                    <ul class="list-search">
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-suitcase"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a style="display: flex; color: #bda87f;" href="cart.html">
+                                <p style="color: #848484;">Giỏ hàng: </p>
+                                <p>(0) Sản phẩm</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="../images/header/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-menu-text">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa-solid fa-house"></i>
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li><a href="introduce.html">Giới thiệu</a></li>
+                        <li>
+                            <a href="product.html">
+                                Sản phẩm
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="subnav-menu">
+                                <li>
+                                    <a href="">Nhà ở</a>
+                                    <i style="margin-right: 10px;
+                                    float: right;
+                                    line-height: 60px;" class="fa-solid fa-chevron-right"></i>
+                                    <!-- menu cấp 2 -->
+                                    <ul class="subnav-menu">
+                                        <li><a href="">Mẫu nhà phố đẹp</a></li>
+                                        <li><a href="">Căn hộ Pearl Plaza</a></li>
+                                        <li><a href="">Khu căn hộ SSG Tower</a></li>
+                                        <li><a href="">Times city Part Hill </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="">Căn hộ</a>
+                                    <i style="margin-right: 10px;
+                                    float: right;
+                                    line-height: 60px;" class="fa-solid fa-chevron-right"></i>
+                                    <!-- menu cấp 3 -->
+                                    <ul class="subnav-menu">
+                                        <li><a href="">Mẫu nhà phố đẹp</a></li>
+                                        <li><a href="">Căn hộ Pearl Plaza</a></li>
+                                        <li><a href="">Khu căn hộ SSG Tower</a></li>
+                                        <li><a href="">Times city Part Hill </a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Chung cư</a></li>
+                                <li><a href="">Văn phòng</a></li>
+                                <li><a href="">Nhà ở dự án</a></li>
+                                <li><a href="">Loại khác</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="news.html">
+                                Tin tức
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="subnav-menu">
+                                <li><a href="">Bất động sản</a></li>
+                                <li><a href="">Tin nổi bật</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="banner-page-list">
+            <div id="content">
+                <div class="banner">
+                    <h1>Sản phẩm</h1>
+                </div>
+            </div>
+            <div class="bread">
+                <div class="container container_bread">
+                    <ul>
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <strong>Sản phẩm</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom: 20px;" class="menu-product">
+            <div class="row container">
+                <div style="padding-left: 0;" class="col col-one-four card-product-OneFour">
+                    <ul class="list-item-product">
+                        <li style="background-color: #363533; color: #fff; display: flex;">
+                            <i style=" margin-right: 5px; margin-top: 3px;" class="fa-solid fa-bars"></i>
+                            <h3>Danh mục sản phẩm</h3>
+                        </li>
+                        <li>
+                            <!-- <div class="last-img"></div> -->
+                            <a href="">Nhà ở</a>
+                        </li>
+                        <li>
+                            <a href="">Căn hộ</a>
+                        </li>
+                        <li>
+                            <a href="">Chung cư</a>
+                        </li>
+                        <li>
+                            <a href="">Văn phòng</a>
+                        </li>
+                        <li>
+                            <a href="">Nhà ở dự án</a>
+                        </li>
+                        <li>
+                            <a href="">Loại khác</a>
+                        </li>
+                    </ul>
+                    <h4 style="margin: 25px 0;">Sản phẩm bán chạy</h4>
+                    <div style="margin-top: 10px; border-bottom:1px solid #ddd ;" class="row">
+                        <div class="col col-third">
+                            <img src="../../images/selling_product/product1.png" alt="" class="product-img">
+                        </div>
+                        <div class="col col-two-third">
+                            <div style="padding:0 ;" class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px; border-bottom:1px solid #ddd ;" class="row">
+                        <div class="col col-third">
+                            <img src="../../images/selling_product/product2.png" alt="" class="product-img">
+                        </div>
+                        <div class="col col-two-third">
+                            <div style="padding:0 ;" class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px; border-bottom:1px solid #ddd ;" class="row">
+                        <div class="col col-third">
+                            <img src="../../images/selling_product/product3.png" alt="" class="product-img">
+                        </div>
+                        <div class="col col-two-third">
+                            <div style="padding:0 ;" class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px; border-bottom:1px solid #ddd ;" class="row">
+                        <div class="col col-third">
+                            <img src="../../images/selling_product/product4.png" alt="" class="product-img">
+                        </div>
+                        <div class="col col-two-third">
+                            <div style="padding:0 ;" class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px; border-bottom:1px solid #ddd ;" class="row">
+                        <div class="col col-third">
+                            <img src="../../images/selling_product/product5.png" alt="" class="product-img">
+                        </div>
+                        <div class="col col-two-third">
+                            <div style="padding:0 ;" class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="../images/section/banner.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="col col-third-four">
+                    <div style="margin-bottom: 50px;" class="row all-product-area">
+                        <ul class="box-tool">
+                            <li>
+                                <p>Sắp xếp: </p>
+                            </li>
+                            <li>
+
+                                <select style="" class="form-control" name="sapxep" id="sapxep">
+                                    <option value="mac-dinh">Mặc định</option>
+                                    <option value="">Từ A -> Z</option>
+                                    <option value="">Từ X -> Z</option>
+                                    <option value="">Giá tăng dần</option>
+                                    <option value="">Giá giảm dần</option>
+                                    <option value="">Hàng mới nhất</option>
+                                    <option value="">Hàng cũ nhất</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="view-mode">
+                            <li>
+                                <a href=""><i class="fa-solid fa-bars"></i></a>
+
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-grip"></i></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product1.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product2.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product3.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product4.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="  margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product5.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product6.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product7.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product8.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-third card-product">
+                            <ul class="list-product">
+                                <li>
+                                    <div class="hover-btn">
+                                        <img src="../images/selling_product/product9.png" alt="" class="product-img">
+                                        <div style="display: flex;" class="nut_2">
+                                            <a class="name js-buy-now" style="cursor: pointer;margin-left: -20px;
+                                            padding: 10px 20px;">Mua ngay</a>
+                                            <a class="name" style="    margin-left: 113px;
+                                            padding: 10px 20px;" href="detail.html">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="info-product">
+                                <p><a href="">Căn hộ 2PN tại Pearl Plaza</a></p>
+                                <div class="product-price">
+                                    <p>250.000.000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row trang">
+                    <ul>
+                        <!-- <li>
+                            <a href="" title="1">
+                                <i class="ti-angle-left"></i>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="Product.html">1</a>
+                        </li>
+                        <li>
+                            <a href="product2.html">2</a>
+                        </li>
+                        <li>
+                            <a href="product3.html">3</a>
+                        </li>
+                        <li>
+                            <a href="" title="1">
+                                <i class="ti-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!----------------- nút hiện lên thanh toán ------------------->
+                <div class="noti-body-cart modal js-modal">
+                    <div class="modal-container js-modal-container">
+                        <div class="noti-add-cart">
+                            <div class="noti-add-header">
+                                <div class="noti-add-header-check">
+                                    <span>
+                                        <i class="fa-solid fa-check "></i>
+                                    </span>
+                                </div>
+                                <div class="noti-add-header-content">
+                                    <h4
+                                        style="color:white; font-size: 18px; font-weight: 400; padding-right: 252px;font-family: Arial, Helvetica, sans-serif;">
+                                        Thêm vào giỏ hàng thành công</h4>
+                                </div>
+                                <div class="noti-add-header-cancel js-modal-close">
+                                    <a>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="noti-add-body">
+                                <div class="noti-add-img">
+                                    <img style="width: 70px; height: 50px;" src="../images/selling_product/product3.png"
+                                        alt="">
+                                </div>
+                                <div class="noti-add-body-content">
+                                    <div style="margin-top: 15px;" class="noti-add-product">
+                                        <p
+                                            style="margin-bottom: 10px; font-size: 16px;font-family: Arial, Helvetica, sans-serif;">
+                                            Căn hộ 2PN tại Pearl Plaza</p>
+                                    </div>
+                                    <div class="noti-add-price">
+                                        <span
+                                            style="font-size: 16px; color: red;font-family: Arial, Helvetica, sans-serif;">250.000.000
+                                            đ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="noti-add-btn">
+                                <div class="noti-add-continue ">
+                                    <a style="cursor: pointer;" class="js-modal-continue">
+                                        Tiếp tục mua hàng
+                                    </a>
+                                </div>
+                                <div class="noti-add-pay">
+                                    <a href="thanhtoan.html">
+                                        Tiến hành thanh toán
+                                        <i style="margin-left: 8px; font-size: 10px;"
+                                            class="fa-solid fa-angles-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="left-footer">
+                    <img src="https://bizweb.dktcdn.net/100/069/071/themes/895058/assets/logo_footer.png?1676346631176"
+                        alt="">
+                    <!-- </br> -->
+                    <ul class="contact">
+                        <li>
+                            <i style="margin-top: 40px; color: #bda87f;"
+                                class="contact-icon fa-solid fa-location-dot"></i>
+                            <span class="contact-text">Cổ nhuế, Bắc từ liêm, Hà Nội</span>
+                        </li>
+                        <li>
+                            <i style="margin-top: 25px; color: #bda87f;" class="contact-icon fa-solid fa-mobile"></i>
+                            <span class="contact-text">012456789</span>
+                        </li>
+                        <li>
+                            <i style="margin-top: 25px; color: #bda87f;"
+                                class="contact-icon fa-regular fa-envelope"></i>
+                            <span class="contact-text">Phucnguyen03p@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-footer">
+                    <div class="nav-menu">
+                        <ul class="nav-menu-text">
+                            <li><a href="">TÀI KHOẢN</a></li>
+                            <li><a style="margin-left: 70px;" href="">CHÍNH SÁCH</a></li>
+                            <li><a style="margin-left: 70px;" href="">ĐIỀU KHOẢN</a></li>
+                            <li><a style="margin-left: 70px;" href="">HƯỚNG DẪN</a></li>
+                        </ul>
+                    </div>
+                    <div class="mainmenu">
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="introduce.html">Giới thiệu</a></li>
+                                <li><a href="product.html">Sản phẩm</a></li>
+                                <li><a href="news.html">Tin tức</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a style="margin-left: 85px;" href="index.html">Trang chủ</a></li>
+                                <li><a style="margin-left: 85px;" href="introduce.html">Giới thiệu</a></li>
+                                <li><a style="margin-left: 85px;" href="product.html">Sản phẩm</a></li>
+                                <li><a style="margin-left: 85px;" href="news.html">Tin tức</a></li>
+                                <li><a style="margin-left: 85px;" href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a style="margin-left: 95px;" href="index.html">Trang chủ</a></li>
+                                <li><a style="margin-left: 95px;" href="introduce.html">Giới thiệu</a></li>
+                                <li><a style="margin-left: 95px;" href="product.html">Sản phẩm</a></li>
+                                <li><a style="margin-left: 95px;" href="news.html">Tin tức</a></li>
+                                <li><a style="margin-left: 95px;" href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="second-menu">
+                            <ul class="second-menu-text">
+                                <li><a style="margin-left: 95px;" href="index.html">Trang chủ</a></li>
+                                <li><a style="margin-left: 95px;" href="introduce.html">Giới thiệu</a></li>
+                                <li><a style="margin-left: 95px;" href="product.html">Sản phẩm</a></li>
+                                <li><a style="margin-left: 95px;" href="news.html">Tin tức</a></li>
+                                <li><a style="margin-left: 95px;" href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <div class="lastleft">
+                        <div class="lasttext">Bản quyền thuộc về Team 04 | Cung cấp bởi SAPO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const buy_nows = document.querySelectorAll('.js-buy-now')
+            const modal = document.querySelector('.js-modal')
+
+            const modalclose = document.querySelector('.js-modal-close')
+            const modalContinue = document.querySelector('.js-modal-continue')
+            const modalContainer = document.querySelector('.js-modal-container')
+            function hide_noti_cart() {
+                modal.classList.remove('open')
+            }
+
+            function show_noti_cart() {
+                modal.classList.add('open')
+            }
+
+
+            for (const buy_now of buy_nows) {
+                buy_now.addEventListener('click', show_noti_cart)
+            }
+
+            modalclose.addEventListener('click', hide_noti_cart)
+            modal.addEventListener('click', hide_noti_cart)
+            modalContinue.addEventListener('click', hide_noti_cart)
+
+            modalContainer.addEventListener('click', function (event) {
+                event.stopPropagation()
+            })
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.4.0-web/css/all.css">
+    <title>Document</title>
+    <style>
+        .paybill {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .paybill-input {
+            border-radius: 4px;
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+            padding: 0.94em 0.8em;
+            border: 1px #d9d9d9 solid;
+            height: 44px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .textthin {
+            font-weight: 500;
+        }
+
+        .color717171 {
+            color: #717171;
+        }
+
+        .margintop20px {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="paybill">
+        <div class="paybill-info" style="width: 410px;">
+            <h1>Mendover</h1>
+            <div class="paybill-info-header" style="display: flex;">
+                <h3>Thông tin nhận hàng</h3>
+                <a href="login.html"
+                    style="padding: 18.75px; margin-left: 88px; text-decoration: none;color: #349dcd"><i
+                        class="fa-regular fa-circle-user"></i> Đăng nhập</a>
+            </div>
+            <div class="paybill-info-set" style="clear: both;">
+                <div class="paybill-input-warpper paybill-input-email">
+                    <input type="email" name="email" id="email" placeholder="Nhập email" class="paybill-input">
+                </div>
+                <br>
+                <div class="paybill-input-warpper paybill-input-name">
+                    <input type="text" name="billName" id="billName" placeholder="Nhập họ và tên" class="paybill-input">
+                </div>
+                <br>
+                <div class="paybill-input-warpper paybill-input-phone">
+                    <input type="text" name="billPhone" id="billPhone" placeholder="Số điện thoại (tuỳ chọn)"
+                        class="paybill-input">
+                </div>
+                <br>
+                <div class="paybill-input-warpper paybill-input-address">
+                    <input type="text" name="billAddress" id="billAddress" placeholder="Địa chỉ" class="paybill-input">
+                </div>
+                <br>
+                <div class="paybill-input-warpper paybill-input-province">
+                    <input type="text" name="billProvince" id="billProvince" placeholder="Tỉnh thành"
+                        class="paybill-input">
+                </div>
+                <br>
+                <div class="paybill-input-warpper paybill-input-district">
+                    <input type="text" name="billDistrict" id="billDistrict" placeholder="Quận huyện (tuỳ chọn)"
+                        class="paybill-input">
+                </div>
+            </div>
+            <br>
+            <div class="paybill-note">
+                <input type="text" name="billNote" id="billNote" placeholder="Ghi chú" class="paybill-input">
+            </div>
+        </div>
+        <div class="paybill-transport" style="width: 410px; padding: 0 28px; margin-top: 80px;">
+            <div class="paybill-input-warpper paybill-input-transport">
+                <label for="transport" class="paybill-label">
+                    <h3>Vận chuyển</h3>
+                </label>
+                <div class="paybill-btn-transport paybill-input" style="display: flex; align-items: center;">
+                    <input type="radio" name="billTransport" id="billTransport"
+                        style="margin-bottom: 4px; width: 15px; height: 15px;">
+                    <label for="" style="font-size: 14px; margin-left: 10px; width: 280px;">Giao hàng tận nơi</label>
+                    <label for="" style="font-size: 14px; margin-left: 10px;">40.000₫</label>
+                </div>
+            </div>
+            <div class="paybill-input-warpper paybill-input-bill">
+                <label for="" class="paybill-label">
+                    <h3>Thanh toán</h3>
+                </label>
+                <div class="paybill-btn-cod paybill-input" style="display: flex; align-items: center;">
+                    <input type="radio" name="billCod" id="billCod"
+                        style="margin-bottom: 4px; width: 15px; height: 15px;">
+                    <label for="" style="font-size: 14px; margin-left: 10px; width: 280px;">Thanh toán khi giao hàng
+                        (COD)</label>
+                    <label for="" style="font-size: 14px; margin-left: 10px;"><i class="fa-solid fa-money-bill"
+                            style="color: #349dcd; margin: 0 18px;"></i></label>
+                </div>
+            </div>
+        </div>
+        <div class="paybill-product" style="width: 410px; background-color: #fafafa;">
+            <div class="paybill-product-header" style="padding-left: 28px;">
+                <h3>Đơn hàng (1 sản phẩm)</h2>
+            </div>
+            <div class="paybill-product-content" style="padding-left: 28px;">
+                <table class="paybill-product-table" style="border-top: 1px solid #e1e1e1; padding: 18px 0;">
+                    <tr class="paybill-product">
+                        <td class="paybill-product__image">
+                            <div class="paybill-product-thumbnail">
+                                <div class="paybill-product-thumbnail__wrapper" style="padding-top: 14px;">
+                                    <img src="//bizweb.dktcdn.net/thumb/thumb/100/069/071/products/tg.png?v=1512029445597"
+                                        alt="" class="paybill-product-thumbnail__image" />
+                                </div>
+                            </div>
+                        </td>
+                        <th class="paybill-product__description">
+                            <span class="paybill-product__description__name textthin "
+                                style="padding-left: 14px; font-size: 14px;">
+                                Căn hộ 2PN tại Pearl Plaza
+                            </span>
+                        <td class="paybill-product__price"
+                            style="padding-left: 28px; padding-top: 14px; font-size: 14px;">
+                            250.000.000₫
+                        </td>
+                    </tr>
+                </table>
+                <div class="paybill-discount"
+                    style="display: flex; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; padding: 18px 0;">
+                    <input type="text" name="billDiscount" id="billDiscount" placeholder="Nhập mã giảm giá"
+                        class="paybill-input" style="width: 266px;">
+                    <button
+                        style="background-color: #357ebd; color: #fff; border-color: #357ebd;border-radius: 5px; width: 100px; margin-left: 16px; cursor: pointer;">Áp
+                        dụng</button>
+                </div>
+                <div class="paybill-sum">
+                    <table class="total-line-table margintop20px" style="width: 100%;">
+                        <tbody class="total-line-table__tbody" style="font-size: 14px;">
+                            <tr class="total-line total-line--subtotal color717171">
+                                <th class="total-line__name textthin">
+                                    Tạm tính
+                                </th>
+                                <td class="total-line__price">250.000.000₫</td>
+                            </tr>
+
+                            <tr class="total-line total-line--shipping-fee color717171">
+                                <th class="total-line__name textthin">
+                                    Phí vận chuyển
+                                </th>
+                                <td class="total-line__price">40.000₫
+                                </td>
+                            </tr>
+
+                        </tbody>
+                        <tfoot class="total-line-table__footer">
+                            <tr class="total-line payment-due">
+                                <th class="total-line__name" style="padding-top: 28px;">
+                                    <span class="payment-due__label-total textthin color717171"
+                                        style="font-size: 18px;">
+                                        Tổng cộng
+                                    </span>
+                                </th>
+                                <td class="total-line__price" style="padding-top: 28px;">
+                                    <span class="payment-due__price" style="color: #349dcd;
+                                    font-size: 24px;">250.000.000₫</span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <div class="paybill-done margintop20px">
+                    <a style="text-decoration: none;" href="cart.html" class="previous-link">
+                        <i class="previous-link__arrow">❮</i>
+                        <span class="previous-link__content">Quay về giỏ hàng</span>
+                    </a>
+                    <button type="submit" class="btn btn-checkout spinner"
+                        style="width: 122px; height: 46px; margin-left: 117px; background-color: #357ebd; color: #fff; border-color: #357ebd;border-radius: 5px; cursor: pointer;">
+                        <span class="spinner-label">ĐẶT HÀNG</span>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

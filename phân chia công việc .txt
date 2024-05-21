@@ -1,0 +1,42 @@
+Nhóm 04 chọn thiết kế giao diện bán chung cư Mendover(https://mendover-theme-1.mysapo.net/) 
+
+Thành viên nhóm và phân chia công việc:
+
+Nguyễn Huy Hoàng Phúc: 
+    - giao diện: 
+        + trang chủ
+        + giới thiệu
+        + sản phẩm
+    -chức năng:
+        + trang chủ 
+        + sản phẩm có phân trang
+        + đăng nhập 
+        + admin:
+            . thêm sản phẩm 
+            . thêm danh mục sản phẩm 
+        + thanh toán
+        + Đặt hàng
+Lê Mai Chi: 
+    - giao diện: 
+        + tin tức 
+        + hover sản phẩm ra 2 nút trang chủ 
+    - chức năng: 
+        + tin tức
+        + admin: 
+            . login 
+            . thêm danh mục tin tức 
+Nguyễn Văn Phú:
+    -giao diện:
+        + slide, bình luận của trang chủ 
+        + giỏ hàng
+    -chức năng:
+        + tìm kiếm 
+        + giỏ hàng
+Nguyễn Minh Hiếu:
+    -giao diện:
+        + dashboard admin
+        + đăng ký  
+        + đăng nhập 
+        + footer 
+    -chức năng: 
+        + đăng ký 

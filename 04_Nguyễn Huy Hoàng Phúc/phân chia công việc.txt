@@ -1,0 +1,8 @@
+Nhóm 04 chọn thiết kế giao diện bán chung cư Mendover(https://mendover-theme-1.mysapo.net/) 
+
+Thành viên nhóm và phân chia công việc:
+
+Nguyễn Huy Hoàng Phúc: trang chủ, giới thiệu, sửa lỗi, responsive home
+Lê Mai Chi: Sản phẩm, tin tức
+Nguyễn Văn Phú: giỏ hàng, slide chuyển động, thanh toán
+Nguyễn Minh Hiếu: đăng nhập, đăng kí, liên hệ, chi tiết sản phẩm
